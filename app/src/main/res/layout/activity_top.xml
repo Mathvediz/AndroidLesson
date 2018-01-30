@@ -17,14 +17,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Training App"
+            android:text="@string/label_title"
             android:gravity="center"
+            android:textSize="15pt"
             />
         <Button
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginTop="40dp"
-            android:text="Register"
+            android:text="@string/label_registry"
             android:textColor="@android:color/white"
             android:background="@color/colorButtonRegister"
             />
@@ -33,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginTop="16dp"
-            android:text="Login"
+            android:text="@string/label_login"
             android:textColor="@android:color/white"
             android:background="#5EAD16"/>
     </LinearLayout>
